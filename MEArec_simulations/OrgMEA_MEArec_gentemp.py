@@ -1,10 +1,7 @@
 import MEArec as mr
-import MEAutility as mu
-import yaml
 from pprint import pprint
-import matplotlib.pyplot as plt
 
-if __name__ == '__main__':
+def main():
     # First lets load the default configuration of MEArec
     default_info, mearec_home = mr.get_default_config()
     pprint(default_info)
@@ -28,3 +25,6 @@ if __name__ == '__main__':
     print('Sample cell types', tempgen.celltypes[:3])
 
     mr.save_template_generator(tempgen, filename='templates/OrgMEA_n60_templates.h5')
+
+if __name__ == '__main__':
+    main()

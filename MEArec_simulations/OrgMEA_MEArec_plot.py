@@ -1,7 +1,4 @@
 import MEArec as mr
-import MEAutility as mu
-import yaml
-from pprint import pprint
 import matplotlib.pyplot as plt
 
 

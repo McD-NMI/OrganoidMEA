@@ -1,8 +1,6 @@
 import MEAutility as mu
 import matplotlib.pylab as plt
 import numpy as np
-import MEArec as mr
-from pprint import pprint
 
 #Get the OrgMEA mea object info
 OrgMEA_info = mu.return_mea_info('OrgMEA')
