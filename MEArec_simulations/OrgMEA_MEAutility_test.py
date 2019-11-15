@@ -30,10 +30,10 @@ OrgMEA = mu.return_mea('OrgMEA')
 # print(OrgMEA.plane)
 
 #PLot a probe view of the mea
-# mu.plot_probe(OrgMEA)
-# plt.show()
+mu.plot_probe(OrgMEA)
+plt.show()
 
 #Plot some randsom noise recordings
-signals = np.random.randn(OrgMEA.number_electrodes, 10000)
-mu.plot_mea_recording(signals, OrgMEA, lw=0.1)
-plt.show()
+#signals = np.random.randn(OrgMEA.number_electrodes, 10000)
+#mu.plot_mea_recording(signals, OrgMEA, lw=0.1)
+#plt.show()
